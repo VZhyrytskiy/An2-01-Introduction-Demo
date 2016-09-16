@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "prestart": "npm install",
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",

@@ -16,6 +16,10 @@ But sometimes you have to run 2 separate console window
 
 >npm run lite
 
+To solve this issue, you can try one of these lines in package.json
+"start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" "
+"start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
+
 How to install typings
 
 typings install --global --save dt~jquery
