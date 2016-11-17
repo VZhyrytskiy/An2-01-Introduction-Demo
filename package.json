@@ -2,7 +2,6 @@
   "name": "an2-qstart",
   "version": "1.0.0",
   "scripts": {
-    "prestart": "npm install",
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lite": "lite-server",
     "tsc": "tsc",

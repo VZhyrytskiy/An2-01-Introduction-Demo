@@ -1,4 +1,5 @@
 # An2-1-Introduction
 
-> npm start
+> npm install (install dependencies)
+> npm start (run app)
 
