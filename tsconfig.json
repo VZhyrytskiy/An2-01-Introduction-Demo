@@ -8,11 +8,14 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false,
-    "outDir": "app"
+    "outDir": "app",
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
   },
   "exclude": [
     "node_modules",
-    "typing/main",
-    "typings/main.d.ts"
-  ]
+    "app"
+  ],
+  "compileOnSave": true
 }
