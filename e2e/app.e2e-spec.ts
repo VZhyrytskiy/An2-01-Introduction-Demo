@@ -1,10 +1,10 @@
-import { AngularIntroductionPage } from './app.po';
+import { V4Page } from './app.po';
 
-describe('angular-introduction App', () => {
-  let page: AngularIntroductionPage;
+describe('v4 App', () => {
+  let page: V4Page;
 
   beforeEach(() => {
-    page = new AngularIntroductionPage();
+    page = new V4Page();
   });
 
   it('should display message saying app works', () => {
