@@ -1,14 +1,14 @@
-import { V4Page } from './app.po';
+import { An2TPage } from './app.po';
 
-describe('v4 App', () => {
-  let page: V4Page;
+describe('an2-t App', () => {
+  let page: An2TPage;
 
   beforeEach(() => {
-    page = new V4Page();
+    page = new An2TPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });

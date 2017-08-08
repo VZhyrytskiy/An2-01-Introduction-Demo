@@ -1,6 +1,6 @@
-import { browser, element, by } from 'protractor';
+import { browser, by, element } from 'protractor';
 
-export class V4Page {
+export class An2TPage {
   navigateTo() {
     return browser.get('/');
   }
