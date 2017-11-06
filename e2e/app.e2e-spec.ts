@@ -1,10 +1,10 @@
-import { An2TPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('an2-t App', () => {
-  let page: An2TPage;
+describe('an App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new An2TPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
